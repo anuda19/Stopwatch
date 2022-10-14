@@ -10,7 +10,7 @@ function Clock() {
 
     setInterval(updateTime, 1000)
   return (
-    <div>
+    <div className='time'>
         <h1 className='text-center'>{currTime}</h1>
     </div>
   )

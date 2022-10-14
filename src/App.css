@@ -1,5 +1,6 @@
 body {
-  background:#267cd2;
+  background: url("https://wallpapercave.com/wp/wp3428811.jpg");
+  background-size: cover;
 }
 
 * {
@@ -18,9 +19,12 @@ body {
 
 .clock-holder {
   width: 100%;
-  background: #fff;
+  background: transparent;
   margin: 30px auto;
   position: relative;
+  box-shadow: 2px 5px 16px 8px;
+  border-radius: 10px;
+  margin-top: 50px;
 }
 
 .stopwatch {
@@ -28,12 +32,35 @@ body {
   text-align: center;
 }
 .stopwatch span{
-  background:#00ABA9;
+  background: linear-gradient(190deg, #c29191, #4c4c8b, red, #385c38);
   color: #fff;
+  box-shadow: 0px 1px 15px -6px;
   display: inline-block;
   font-family: monospace;
   font-size: 22px;
   padding: 20px;
   border-radius: 5px;
   width: 70px;
+}
+.time h1{
+  color: white;
+  margin-bottom: 4rem;
+}
+.tasks_main{
+  background: transparent;
+  box-shadow: 2px 5px 16px 8px;
+  border-radius: 10px;
+}
+.saved_tasks{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.desc{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.tasks_icon{
+  cursor: pointer;
 }
